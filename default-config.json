@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "DoubleOxygen": {
+      "type": "toggle",
+      "value": true,
+      "title": "Double Oxygen"
+    },
+    "DoubleFuel": {
+      "type": "toggle",
+      "value": true,
+      "title": "Double Fuel"
+    },
+    "DoubleBoostDuration": {
+      "type": "toggle",
+      "value": true,
+      "title": "Double Boost Duration"
+    },
+    "DoubleAirBoostRegen": {
+      "type": "toggle",
+      "value": true,
+      "title": "Double Air Boost Regen"
+    }
+  }
+}

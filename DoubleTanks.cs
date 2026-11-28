@@ -82,7 +82,6 @@ namespace DoubleTanks
                     : _baseBoostSeconds;
             }
 
-            // Refund half of normal mid-air boost recharge to effectively double regen speed.
             if (DoubleTanks.DoubleAirBoostRegen && !_jetpack._boostActivated)
             {
                 float gained = _jetpack._boostChargeFraction - _lastBoostFraction;
